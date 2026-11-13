@@ -111,3 +111,9 @@ html{scroll-padding-top:120px}body{padding-bottom:100px}.site-nav{background:rgb
 @media(min-width:768px) and (max-width:1100px){.nav-inner{flex-wrap:wrap;gap:10px}.nav-links{order:3;width:100%;justify-content:center;gap:30px}.site-nav{padding:10px 0}.hero-content{bottom:140px}}
 @media(max-width:767px){html{scroll-padding-top:145px}.nav-inner{flex-wrap:wrap;gap:10px}.menu-toggle{margin-left:auto}.nav-cta{width:100%;order:4;flex-direction:row;gap:12px;padding:8px}.nav-cta strong{font-size:17px}.nav-links{top:100%;left:0;right:0}.hero-scroll{height:auto}.hero-sticky{position:relative;height:auto;min-height:100svh}.hero-content{position:relative;left:auto;right:auto;bottom:auto;padding:195px 23px 60px}.hero-referral{max-width:340px}.faq-grid{grid-template-columns:1fr}.policy-main{padding-top:190px}}
 @media(max-width:575px){body{padding-bottom:145px}.call-banner{flex-direction:column;gap:6px}.call-banner span{font-size:13px}.call-banner a{font-size:23px}.brand{font-size:16px}.hero-content h1{font-size:clamp(42px,11vw,65px)}.hero-copy{font-size:15px}.button-light{font-size:13px}.footer-links{width:100%}.policy-main h1{font-size:36px}}
+
+/* Arizona Sun Power logo: transparent on both backgrounds. */
+.brand{flex-shrink:0;max-width:100%}.brand-logo{display:block;width:255px;max-width:100%;height:auto}footer .brand-logo{filter:brightness(0) invert(1);width:265px}footer .brand{background:transparent;padding:0}
+@media(min-width:768px) and (max-width:1100px){.brand-logo{width:235px}}
+@media(max-width:767px){.brand-logo{width:245px}.site-nav.scrolled{padding:10px 0}}
+@media(max-width:359px){.brand-logo{width:215px}}
